@@ -73,9 +73,9 @@ void loop() {
 
 - Una vez cargado el sketch abra la terminal serial a 9600 baudios, seleccionar la opcion "Nueva línea".
 - Escribir el comando "AT",presionar  enter, y a continuacion el chip wisol respondera con un "Ok"  
-- Comando de interes:
+- Comandos de interes:
 - ID:          AT$I=10
-- PAC:         AT$I=12
+- PAC:         AT$I=11
 - Voltaje:     AT$V?
 - Temperatura: AT$T?
 
