@@ -3,8 +3,7 @@
 ## 32U4 DEVKIT SIGOX  IMAGEN
 
 ![](https://github.com/markoAntonio1692/32U4-DEVKIT-SIGFOX/blob/master/image/1.JPG )
-
-![](https://github.com/markoAntonio1692/32U4-DEVKIT-SIGFOX/blob/master/image/1.JPG )
+![](https://github.com/markoAntonio1692/32U4-DEVKIT-SIGFOX/blob/master/image/2.JPG)
 
 
 ## Caracteristicas
@@ -37,21 +36,7 @@
 
 ## Descripcion de pines
 
-| Pin| Descripcion                    |
-| ------------- | ------------------------------ |
-| D0 |  GPIO16, Wake up deep Sleep    |  
-| D1  |  GPIO5, SCL    | 
-| D2   | GPIO4, SDA     |
-| D3/PU   | GPIO0, pull_up, Flash mode     |
-| D4/PU/LED   | GPIO4, pull_up, led interno esp     |
-| D5   | GPIO14, SCLK     |
-| D6   | GPIO12, MISO     |
-| D7   | GPIO13, MOSI     |
-| D8/DOP   | GPIO15, Drenador abierto (Drain open), CS     |
-| TX   | GPIO1     |
-| RX   | GPIO3    |
-| ADC   | Lectrura analogica [0-1] Voltios    |
-| A0   | Lectrura analogica [0-6] Voltios   |
+![](https://github.com/markoAntonio1692/32U4-DEVKIT-SIGFOX/blob/master/image/PINOUT.JPG)
 
 
 # Cargar un Programa a ESP8266 DEVKIT LOW POWER
