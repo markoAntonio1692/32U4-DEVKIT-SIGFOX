@@ -39,7 +39,7 @@
 
 
 # Cargar un Programa a 32U4 DEVKIT SIGFOX
-- Enchufe el conector micro usb a 32U4 DEVKIT SIGFOC y LUEGO enchufar el cable usb a su PC
+- Enchufe el conector micro usb a 32U4 DEVKIT SIGFOX y LUEGO enchufar el cable usb a su PC
 - Espere a que su PC lo reconosca.
 - Abra su ide Arduino.
 - Puede usar este ejemplo como inicio:
