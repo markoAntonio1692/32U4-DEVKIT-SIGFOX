@@ -79,6 +79,12 @@ void loop() {
 - Voltaje:     AT$V?
 - Temperatura: AT$T?
 
-
-
 ![](https://github.com/markoAntonio1692/32U4-DEVKIT-SIGFOX/blob/master/image/AT.JPG)
+
+
+#### ENVIAR UN MENSAJE
+Enviar un mensaje a backend sigfox sera el siguiente: 255 decimal, SIGA LA SECUENCIA DE COMANDOS SIGUIENTE:
+- AT$GI?
+- AT$RC
+- AT$SF=FF
+- AT$
