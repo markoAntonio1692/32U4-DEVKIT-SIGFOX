@@ -3,7 +3,6 @@
 ## 32U4 DEVKIT SIGFOX  IMAGEN
 
 ![](https://github.com/markoAntonio1692/32U4-DEVKIT-SIGFOX/blob/master/image/1.JPG )
-![](https://github.com/markoAntonio1692/32U4-DEVKIT-SIGFOX/blob/master/image/2.JPG)
 
 
 ## Caracteristicas
