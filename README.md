@@ -71,7 +71,7 @@ void loop() {
 ![](https://github.com/markoAntonio1692/32U4-DEVKIT-SIGFOX/blob/master/image/arduino.jpg)
 
 
-- Una vez cargado el sketch abra la terminal serial a 9600 baudios, seleccionar la npcion "Nueva línea".
+- Una vez cargado el sketch abra la terminal serial a 9600 baudios, seleccionar la opcion "Nueva línea".
 - Escribir el comando "AT",presionar  enter, y a continuacion el chip wisol respondera con un "Ok"  
 - Comando de interes:
 - ID:          AT$I=10
