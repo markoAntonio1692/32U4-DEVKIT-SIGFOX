@@ -39,50 +39,28 @@
 
 
 # Cargar un Programa a 32U4 DEVKIT SIGFOX
-- Conecte cable micro usb y enchufar a su computadora
-- Espere a que su PC lo reconosca
+- Conecte el conector micro usb a 32U4 DEVKIT SIGFOC y LUEGO enchufar el cable usb a su PC
+- Espere a que su PC lo reconosca.
 - Abra su ide Arduino.
 - Selecciones un ejemplo puede intentar usar este:
 
-####Javascript　
+#### Comuncacion Serial chip wisol y arduino
 
 ```javascript
-function test(){
-	console.log("Hello world!");
+void setup() {
+  Serial.begin(9600);
+  Serial1.begin(9600);
 }
- 
-(function(){
-    var box = function(){
-        return box.fn.init();
-    };
 
-    box.prototype = box.fn = {
-        init : function(){
-            console.log('box.init()');
-
-			return this;
-        },
-
-		add : function(str){
-			alert("add", str);
-
-			return this;
-		},
-
-		remove : function(str){
-			alert("remove", str);
-
-			return this;
-		}
-    };
-    
-    box.fn.init.prototype = box.fn;
-    
-    window.box =box;
-})();
-
-var testBox = box();
-testBox.add("jQuery").remove("jQuery");
+void loop() {
+   while (Serial.available()) {
+    Serial1.write(Serial.read());
+  }
+  while (Serial1.available()) {
+    Serial.write(Serial1.read());
+  }
+  
+}
 ```
 
 
