@@ -25,7 +25,7 @@
 
 ## Caracteristicas Electricas
 
-| Descripciom | Unidad                    |
+| DescripcioN | Unidad                    |
 | ------------- | ------------------------------ |
 | Voltaje Minimo  RAW |  3.7 Voltios    |  
 | Voltaje Maximo  RAW |  9 Voltios    |  
