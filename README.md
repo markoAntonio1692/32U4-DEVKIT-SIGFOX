@@ -33,23 +33,59 @@
 | Antena helicoidal    | 2.5DBi      |
 
 
-## Descripcion de pines
+## Descripcion de pines 32U4 DEVKIT SIGFOX
 
-![](https://github.com/markoAntonio1692/32U4-DEVKIT-SIGFOX/blob/master/image/PINOUT.JPG)
+![](https://github.com/markoAntonio1692/32U4-DEVKIT-SIGFOX/blob/master/image/PINOUT.png)
 
 
-# Cargar un Programa a ESP8266 DEVKIT LOW POWER
-- Alimente a la placa ESP8266 DEVKIT LOW POWER por VIN.
-- Coloque un Jumper entre los pin Heder "SW", o puede usar un switch externo si lo necesita.
-
-![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/vin.jpg)
-- Utilice un Conversor UBS A Serial TTL como FTDI, CH340, CP210x, etc. Conectelo de la forma correspondiente. 
-- Cambie el Jumper a la posicion que se muestra en la imagen y reinicie a ESP8266 LOW POWER DEVKIT con el boton RST, esta accion pondra a la esp8266 en modo programacion
-![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/serial.jpg)
-
-- Conecte a su PC su Conversor UBS A Serial TTL, espere que sea reconocido por los drivers.
+# Cargar un Programa a 32U4 DEVKIT SIGFOX
+- Conecte cable micro usb y enchufar a su computadora
+- Espere a que su PC lo reconosca
 - Abra su ide Arduino.
-- Selecciones un ejemplo.
+- Selecciones un ejemplo puede intentar usar este:
+
+####Javascript　
+
+```javascript
+function test(){
+	console.log("Hello world!");
+}
+ 
+(function(){
+    var box = function(){
+        return box.fn.init();
+    };
+
+    box.prototype = box.fn = {
+        init : function(){
+            console.log('box.init()');
+
+			return this;
+        },
+
+		add : function(str){
+			alert("add", str);
+
+			return this;
+		},
+
+		remove : function(str){
+			alert("remove", str);
+
+			return this;
+		}
+    };
+    
+    box.fn.init.prototype = box.fn;
+    
+    window.box =box;
+})();
+
+var testBox = box();
+testBox.add("jQuery").remove("jQuery");
+```
+
+
 - Selecciones su puerto COM que fue detectado.
 - Seleciones la Placa Nodemcu 1.0 y Cargue!
  (Si no tiene instalado la placa esp8266 en Ide Arduino se recomienda usar los Siguientes pasos)
