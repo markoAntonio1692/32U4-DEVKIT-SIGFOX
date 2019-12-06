@@ -31,7 +31,7 @@
 | Voltaje Maximo  RAW |  9 Voltios    |  
 | Voltaje  alimentacion VCC |  3.3 Voltios    | 
 | Corriente maxima   | 1A     |
-| Antena helicoidad    | 2.5DBi      |
+| Antena helicoidal    | 2.5DBi      |
 
 
 ## Descripcion de pines
