@@ -9,7 +9,7 @@
 
 - Placa de desarrollo basado en el chip Atmega32U4 USB y Modem Wisol RC4 para aplicaciones Sigfox.
 - Programable con Arduino IDE (compatible con pines de arduino Leonardo, ProMicro, Micro, y otras placas arduino basadas en chip 32U4).
-- Incluye una antena helicoidal omnidireccional de 2.5 DBi y opcionalmente un conector  ULF para antenas externas. (previamente desoladar la antena helicoidal para su uso). 
+- Incluye una antena helicoidal omnidireccional de 2.5 DBi y opcionalmente un conector  UFL para antenas externas. (previamente desoladar la antena helicoidal para su uso). 
 - Puede alimentarse directamente de una fuente USB, circuito interno trabaja a 3.3V.
 - Ideal para desarrollar prototipos y aplicaciones de forma rapida ya que incluye un microcotrolador compatible con arduino.
 - Cuenta con un regulador de voltaje de 3.3V AMS1117 que puede suministar hasta 1 amperio de corriente.
@@ -44,6 +44,7 @@
 - Abra su ide Arduino.
 - Puede usar este ejemplo como inicio:
 
+
 #### Comuncacion Serial chip wisol y arduino
 
 ```javascript
@@ -65,6 +66,7 @@ void loop() {
 
 
 - Selecciones la placa Arduino Leonardo y seleccion el puerto COM detectado en su PC.
+- Y cargue el sketch.
 
 ![](https://github.com/markoAntonio1692/32U4-DEVKIT-SIGFOX/blob/master/image/arduino.jpg)
 
@@ -72,10 +74,10 @@ void loop() {
 - Una vez cargado el sketch abra la terminal serial a 9600 baudios, seleccionar la npcion "Nueva línea".
 - Escribir el comando "AT",presionar  enter, y a continuacion el chip wisol respondera con un "Ok"  
 - Comando de interes:
-  ID:          AT$I=10
-  PAC:         AT$I=12
-  Voltaje:     AT$V?
-  Temperatura: AT$T?
+- ID:          AT$I=10
+- PAC:         AT$I=12
+- Voltaje:     AT$V?
+- Temperatura: AT$T?
 
 
 
