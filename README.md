@@ -42,7 +42,7 @@
 - Conecte el conector micro usb a 32U4 DEVKIT SIGFOC y LUEGO enchufar el cable usb a su PC
 - Espere a que su PC lo reconosca.
 - Abra su ide Arduino.
-- Selecciones un ejemplo puede intentar usar este:
+- Puede usar este ejemplo como inicio:
 
 #### Comuncacion Serial chip wisol y arduino
 
@@ -64,24 +64,19 @@ void loop() {
 ```
 
 
-- Selecciones su puerto COM que fue detectado.
-- Seleciones la Placa Nodemcu 1.0 y Cargue!
- (Si no tiene instalado la placa esp8266 en Ide Arduino se recomienda usar los Siguientes pasos)
-`<link>` : <https://www.luisllamas.es/programar-esp8266-con-el-ide-de-arduino/>
+- Selecciones la placa Arduino Leonardo y seleccion el puerto COM detectado en su PC.
 
-![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/arduinocom.jpg)
+![](https://github.com/markoAntonio1692/32U4-DEVKIT-SIGFOX/blob/master/image/arduino.jpg)
 
-![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/arduino.jpg)
 
-![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/arduinoprog.jpg)
-
-- Una vez cargado el Sketch a su ESP8266 LOW POWER DEVKIT Cambie la posicion del Jumper a su estado inicial y nuevamente reinicie con el boton reset, el esp8266 arrancara con su el sketch cargado.
-
-## Transitor Mosfet N en pin D8 (D8/DOP) 
--  Use este transistor para activar cargas de un maximo de 250 mA, con una salida de 1 logico o HIGH, enciende la carga, con 0 o LOW apaga a la carga.
-
-![](https://github.com/markoAntonio1692/ESP8266-LOW-POWER-DEVKIT/blob/master/Imagenes/mosfet.jpg)
+- Una vez cargado el sketch abra la terminal serial a 9600 baudios, seleccionar la npcion "Nueva línea".
+- Escribir el comando "AT",presionar  enter, y a continuacion el chip wisol respondera con un "Ok"  
+- Comando de interes:
+  ID:          AT$I=10
+  PAC:         AT$I=12
+  Voltaje:     AT$V?
+  Temperatura: AT$T?
 
 
 
-
+![](https://github.com/markoAntonio1692/32U4-DEVKIT-SIGFOX/blob/master/image/AT.JPG)
