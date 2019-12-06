@@ -87,4 +87,3 @@ Enviar un mensaje a backend sigfox sera el siguiente: 255 decimal, SIGA LA SECUE
 - AT$GI?
 - AT$RC
 - AT$SF=FF
-- AT$
