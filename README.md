@@ -1,4 +1,6 @@
 # 32U4 DEVKIT SIGFOX 
+Region RC4 ( Latinoamerica: Argentina, Chile, Colombia, Costa Rica, El Salvador, Guatemala, Honduras, Nicaragua, Panama, Perú, Trinidad & Tobago, Uruguay.
+Asia pacifico: Australia, Hong Kong, Indonesia, Malasia, Nueva Zelanda, Singapure, Taiwán, Thailandia.
 
 ## 32U4 DEVKIT SIGFOX  IMAGEN
 
